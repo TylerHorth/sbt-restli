@@ -40,7 +40,7 @@ The rest.li model plugin generates rest models (restspec & snapshot files) from 
 
 Apply the plugin to your project in `build.sbt` and set your API project using `restliModelApi`, then set your compatibility mode using `restliModelCompat` to one of `OFF`, `IGNORE`, `BACKWARDS` (default), or `EQUIVALENT`. 
 
-Publishing your changes using `restliModelPublish` task will copy rest models into your API project if they are compatible according to the compatibility mode selected.
+Publishing your changes using the `restliModelPublish` task will copy rest models into your API project if they are compatible according to the compatibility mode selected.
 
 ```scala
 // TODO - add import for the plugin
