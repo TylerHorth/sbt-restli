@@ -41,7 +41,6 @@ Apply the plugin to your project in `build.sbt` and set your API project using `
 Publishing your changes using the `restliModelPublish` task will copy rest models into your API project if they are compatible according to the compatibility mode selected.
 
 ```scala
-// TODO - add import for the plugin
 
 lazy val server = (project in file("server"))
   .enablePlugins(RestliModelPlugin)
