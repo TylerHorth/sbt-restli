@@ -22,7 +22,6 @@ The rest.li schema plugin compiles pegasus data-schemas (`*.pdsc` files) into Ja
 Apply the plugin to your project in `build.sbt` and place data-schemas in the `src/main/pegasus` directory.
 
 ```scala
-// TODO - add import for the plugin
 lazy val api = (project in file("api"))
   .enablePlugins(RestliSchemaPlugin)
   .settings(
