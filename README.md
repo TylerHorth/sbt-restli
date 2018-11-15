@@ -59,7 +59,6 @@ Apply the plugin to your project in `build.sbt`. It is possible to apply the plu
 
 ```scala
 // TODO - add import for the plugin
-
 lazy val clientBindings = (project in file("api"))
   .enablePlugins(RestliClientPlugin)
   .dependsOn(api)
