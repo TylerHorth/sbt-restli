@@ -17,7 +17,7 @@ Sbt-restli is made up of 4 individual plugins.
 
 ### RestliSchemaPlugin
 
-The rest.li schema plugin compiles pegasus data-schemas (`*.pdsc` files) into Java data-templates classes.
+The rest.li schema plugin compiles pegasus data-schemas (`*.pdsc` files) into Java data-template classes.
 
 Apply the plugin to your project in `build.sbt` and place data-schemas in the `src/main/pegasus` directory.
 
