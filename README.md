@@ -58,7 +58,6 @@ The rest.li client plugin generates Java client bindings from rest models.
 Apply the plugin to your project in `build.sbt`. It is possible to apply the plugin to your API project directly, but it is best practice to create a new project in order to produce separate artifacts.
 
 ```scala
-// TODO - add import for the plugin
 lazy val clientBindings = (project in file("api"))
   .enablePlugins(RestliClientPlugin)
   .dependsOn(api)
