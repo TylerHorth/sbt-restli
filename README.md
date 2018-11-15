@@ -23,7 +23,6 @@ Apply the plugin to your project in `build.sbt` and place data-schemas in the `s
 
 ```scala
 // TODO - add import for the plugin
-
 lazy val api = (project in file("api"))
   .enablePlugins(RestliSchemaPlugin)
   .settings(
